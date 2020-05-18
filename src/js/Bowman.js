@@ -2,8 +2,7 @@
 import Character from './Character';
 
 class Bowman extends Character {
-  constructor(health) {
+  constructor() {
     super(25, 25);
-    this.health = health;
   }
 }

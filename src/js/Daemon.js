@@ -2,8 +2,7 @@
 import Character from './Character';
 
 class Daemon extends Character {
-  constructor(health) {
+  constructor() {
     super(10, 40);
-    this.health = health;
   }
 }
